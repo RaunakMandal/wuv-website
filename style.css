@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  color: white;
+}
+
+p,
+ul {
+  font-size: 20px;
+}
+.nav-item {
+  font-size: 25px;
+  font-style: normal;
+}
+#icon {
+  height: 30px !important;
+  width: 30px !important;
+}
+.nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  color: white !important;
+}
+section {
+  min-height: 100vh;
+  padding-top: 80px;
+  overflow: visible;
+}
+
+section#home {
+  background-image: url("https://wallpaperaccess.com/full/1121317.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#about {
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/programming-02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#resources {
+  background-image: url("https://wallpapercave.com/wp/wp1828900.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-group {
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.card-img-top {
+  height: 100%;
+  display: flex;
+  justify-content: center !important;
+}
+
+section#contact {
+  background-image: url("https://images.hdqwalls.com/download/south-park-minimalism-4k-qp-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form {
+  padding: 16px;
+  display: inline-block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 16px;
+  margin: 10px;
+  border: 1px solid #35bdd0;
+}
